@@ -1,0 +1,16 @@
+current directory: /Users/mat/code/Tumendelger-0604/rails-yelp-mvp/vendor/bundle/ruby/3.1.0/gems/debug-1.8.0/ext/debug
+/Users/mat/.rbenv/versions/3.1.2/bin/ruby -I /Users/mat/.rbenv/versions/3.1.2/lib/ruby/3.1.0 -r ./siteconf20230816-50553-8fb67y.rb extconf.rb
+creating Makefile
+
+current directory: /Users/mat/code/Tumendelger-0604/rails-yelp-mvp/vendor/bundle/ruby/3.1.0/gems/debug-1.8.0/ext/debug
+make DESTDIR\= clean
+
+current directory: /Users/mat/code/Tumendelger-0604/rails-yelp-mvp/vendor/bundle/ruby/3.1.0/gems/debug-1.8.0/ext/debug
+make DESTDIR\=
+compiling debug.c
+compiling iseq_collector.c
+linking shared-object debug/debug.bundle
+
+current directory: /Users/mat/code/Tumendelger-0604/rails-yelp-mvp/vendor/bundle/ruby/3.1.0/gems/debug-1.8.0/ext/debug
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 debug.bundle ./.gem.20230816-50553-43p6z7/debug

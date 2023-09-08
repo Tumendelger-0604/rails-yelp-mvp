@@ -1,0 +1,11 @@
+<!-- app/views/restaurants/show.html.erb -->
+<h1><%= @restaurant.name %></h1>
+<p><%= @restaurant.address %></p>
+<!-- ... other restaurant information ... -->
+
+<%= simple_form_for [@restaurant, @review] do |f| %>
+  <!-- Review form fields, such as rating and content -->
+  <%= f.input :rating %>
+  <%= f.input :content %>
+  <%= f.submit "Submit Review", class: "btn btn-primary" %>
+<% end %>
